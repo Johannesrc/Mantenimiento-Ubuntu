@@ -15,7 +15,7 @@ Ubucleaner() {
     RED="\033[0;31m"
     ENDCOLOR="\033[0m"
 
-    if [ $USER != root ]; then
+    if [ "$USER" != root ]; then
 	      echo -e $RED"Error: must be root"
 	      echo -e $YELLOW"Exiting..."$ENDCOLOR
 	      exit 0

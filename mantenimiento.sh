@@ -56,7 +56,7 @@ Main() {
     echo -e "7. Borrando archivos antiguos descargasos..."
     sudo apt-get clean 1> /dev/null
     echo -e "8. Limpiando el menu del grup..."
-    # sudo update-grup
+    sudo update-grub2
     # echo -e "9. Eliminando paquetes de datos innecesarios (Ciclo $i)..."
     # sudo deborphan --guess-all | xargs sudo apt -y purge
     # echo -e "10. Eliminando bibliotecas innecesarias (Ciclo $i)..."

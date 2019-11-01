@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables generales
-usuario_del_equipo="Johannes RC"
+usuario_del_equipo="user_name"
 
 # Ubucleaner
 Ubucleaner() {
